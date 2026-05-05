@@ -6,11 +6,11 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-     public function home() {
-        return "Selamat datang di halaman Home!";
+    public function home() {
+        return view('home');
     }
 
     public function about() {
-        return "Ini adalah halaman About.";
+        return view('about');
     }
 }
