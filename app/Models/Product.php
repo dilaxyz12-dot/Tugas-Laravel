@@ -9,10 +9,9 @@ class Product extends Model
 {
     use HasFactory;
 
-    // Kolom yang boleh diisi (WAJIB untuk factory & seeder)
     protected $fillable = [
-        'name',
-        'price',
-        'description'
+        'nama',
+        'harga',
+        'stok'
     ];
 }
